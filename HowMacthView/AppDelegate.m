@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WuKaOneViewController.h"
 @implementation AppDelegate
 
 - (void)dealloc
@@ -21,6 +21,12 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    WuKaOneViewController * wuk = [[[WuKaOneViewController alloc] init] autorelease];
+    UINavigationController * nav=[[[UINavigationController alloc] initWithRootViewController:wuk] autorelease];
+    self.window.rootViewController = nav;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

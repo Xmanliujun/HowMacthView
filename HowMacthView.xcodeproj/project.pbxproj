@@ -16,6 +16,7 @@
 		043943A81738C65A003245E1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 043943A71738C65A003245E1 /* Default.png */; };
 		043943AA1738C65A003245E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043943A91738C65A003245E1 /* Default@2x.png */; };
 		043943AC1738C65A003245E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043943AB1738C65A003245E1 /* Default-568h@2x.png */; };
+		043943B71738C79E003245E1 /* WuKaOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043943B61738C79E003245E1 /* WuKaOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		043943A71738C65A003245E1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		043943A91738C65A003245E1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		043943AB1738C65A003245E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		043943B51738C79E003245E1 /* WuKaOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WuKaOneViewController.h; sourceTree = "<group>"; };
+		043943B61738C79E003245E1 /* WuKaOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WuKaOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 		0439439B1738C65A003245E1 /* HowMacthView */ = {
 			isa = PBXGroup;
 			children = (
+				043943B51738C79E003245E1 /* WuKaOneViewController.h */,
+				043943B61738C79E003245E1 /* WuKaOneViewController.m */,
 				043943A41738C65A003245E1 /* AppDelegate.h */,
 				043943A51738C65A003245E1 /* AppDelegate.m */,
 				0439439C1738C65A003245E1 /* Supporting Files */,
@@ -166,6 +171,7 @@
 			files = (
 				043943A21738C65A003245E1 /* main.m in Sources */,
 				043943A61738C65A003245E1 /* AppDelegate.m in Sources */,
+				043943B71738C79E003245E1 /* WuKaOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +246,12 @@
 		043943B01738C65A003245E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 军 刘 (8J723CMF5U)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HowMacthView/HowMacthView-Prefix.pch";
 				INFOPLIST_FILE = "HowMacthView/HowMacthView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "46F77C01-6B9B-41BE-B399-72E155E65D2D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
