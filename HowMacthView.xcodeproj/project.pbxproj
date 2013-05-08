@@ -17,6 +17,12 @@
 		043943AA1738C65A003245E1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043943A91738C65A003245E1 /* Default@2x.png */; };
 		043943AC1738C65A003245E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 043943AB1738C65A003245E1 /* Default-568h@2x.png */; };
 		043943B71738C79E003245E1 /* WuKaOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043943B61738C79E003245E1 /* WuKaOneViewController.m */; };
+		045BF913173A2B9E004222B3 /* jieji1.png in Resources */ = {isa = PBXBuildFile; fileRef = 045BF90D173A2B9E004222B3 /* jieji1.png */; };
+		045BF914173A2B9E004222B3 /* jieji2.png in Resources */ = {isa = PBXBuildFile; fileRef = 045BF90E173A2B9E004222B3 /* jieji2.png */; };
+		045BF915173A2B9E004222B3 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 045BF90F173A2B9E004222B3 /* ok.png */; };
+		045BF916173A2B9E004222B3 /* xy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 045BF910173A2B9E004222B3 /* xy1.png */; };
+		045BF917173A2B9E004222B3 /* xy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 045BF911173A2B9E004222B3 /* xy2.png */; };
+		045BF918173A2B9E004222B3 /* zhibank.png in Resources */ = {isa = PBXBuildFile; fileRef = 045BF912173A2B9E004222B3 /* zhibank.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,12 @@
 		043943AB1738C65A003245E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		043943B51738C79E003245E1 /* WuKaOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WuKaOneViewController.h; sourceTree = "<group>"; };
 		043943B61738C79E003245E1 /* WuKaOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WuKaOneViewController.m; sourceTree = "<group>"; };
+		045BF90D173A2B9E004222B3 /* jieji1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jieji1.png; sourceTree = "<group>"; };
+		045BF90E173A2B9E004222B3 /* jieji2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jieji2.png; sourceTree = "<group>"; };
+		045BF90F173A2B9E004222B3 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		045BF910173A2B9E004222B3 /* xy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xy1.png; sourceTree = "<group>"; };
+		045BF911173A2B9E004222B3 /* xy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xy2.png; sourceTree = "<group>"; };
+		045BF912173A2B9E004222B3 /* zhibank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhibank.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		0439439B1738C65A003245E1 /* HowMacthView */ = {
 			isa = PBXGroup;
 			children = (
+				045BF90C173A2B86004222B3 /* image */,
 				043943B51738C79E003245E1 /* WuKaOneViewController.h */,
 				043943B61738C79E003245E1 /* WuKaOneViewController.m */,
 				043943A41738C65A003245E1 /* AppDelegate.h */,
@@ -102,6 +115,19 @@
 				043943AB1738C65A003245E1 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		045BF90C173A2B86004222B3 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				045BF90D173A2B9E004222B3 /* jieji1.png */,
+				045BF90E173A2B9E004222B3 /* jieji2.png */,
+				045BF90F173A2B9E004222B3 /* ok.png */,
+				045BF910173A2B9E004222B3 /* xy1.png */,
+				045BF911173A2B9E004222B3 /* xy2.png */,
+				045BF912173A2B9E004222B3 /* zhibank.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +185,12 @@
 				043943A81738C65A003245E1 /* Default.png in Resources */,
 				043943AA1738C65A003245E1 /* Default@2x.png in Resources */,
 				043943AC1738C65A003245E1 /* Default-568h@2x.png in Resources */,
+				045BF913173A2B9E004222B3 /* jieji1.png in Resources */,
+				045BF914173A2B9E004222B3 /* jieji2.png in Resources */,
+				045BF915173A2B9E004222B3 /* ok.png in Resources */,
+				045BF916173A2B9E004222B3 /* xy1.png in Resources */,
+				045BF917173A2B9E004222B3 /* xy2.png in Resources */,
+				045BF918173A2B9E004222B3 /* zhibank.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +318,7 @@
 				043943B11738C65A003245E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

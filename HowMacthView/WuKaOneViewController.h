@@ -22,19 +22,28 @@
     
     UIView * oneView;
     UIView * twoView;
+    UIView * threeView;
+    
     UIButton * xButton;
     UIButton * jButton;
     UIButton * yButton;
     UIButton * zButton;
+    UIButton * vButton;
+    
+    UIButton * vzButton;
+    UIButton * vzButton2;
+    UIButton * vzButton3;
     
     UIButton * zhiFuButton;
     
     UITextField * codeNumText;
     UITextField * certNameText;
     UITextField * certCodeText;
+    UITextField * certPhoneText;
     
     UILabel * bankLabel;
     UILabel * zhengLabel;
+    UILabel * label6;
     UILabel * label5;
     UILabel * label4;
     UILabel * label3;
@@ -46,11 +55,32 @@
     UIImageView * imageView2;
     
     UITableView * myTableViewBank;
+    UITableView * jMytableViewBank;
     
     
     
+    NSString * stringBank;
+    NSString * bankNameString;
+    NSString * jString;
+    NSString * xString;
+    NSString * sZhString;
+    
+    NSString * codeNumString;
+    NSString * certNameString;
+    NSString * certOnString;
+    NSString * certPhoneString;
     
 }
+@property (nonatomic,retain) NSString * certPhoneString;
+@property (nonatomic,retain) NSString * bankNameString;
+@property (nonatomic,retain) NSString * codeNumString;
+@property (nonatomic,retain) NSString * certNameString;
+@property (nonatomic,retain) NSString * certOnString;
+
+@property (nonatomic,retain) NSString * stringBank;
+@property (nonatomic,retain) NSString * jString;
+@property (nonatomic,retain) NSString * xString;
+@property (nonatomic,retain) NSString * sZhString;
 
 @property (nonatomic,retain) NSMutableArray * jArray;
 @property (nonatomic,retain) NSMutableArray * xyArray;
